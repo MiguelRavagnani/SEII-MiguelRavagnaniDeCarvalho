@@ -6,3 +6,8 @@ Nomes de pastas com atividades atualizados:
 
  Nova pasta
  - Semana3
+
+ ## Changelog 17/01/2022
+
+ Nova pasta
+ - Semana4
