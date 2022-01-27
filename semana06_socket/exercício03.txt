@@ -1,0 +1,20 @@
+1 - O protocolo TCP é um protocolo de fluxo de bytes que não rpesenva os limites 
+    de mensagem, uma vez que é responsável apenas pela trasmissão de dados.Cada 
+    pacote TCP é capaz de carregar até 65536 bytes em um "payload".
+
+    No caso do protocolo UDP, o mesmo controle não existe, e o fluxo de dados
+    máximo é limitado à 65536, (limitado à 1500 bytes para conexão ethernet), 
+    com dois bytes para cabeçalho.
+
+2 - Em uma comunicação UDP, não há muita confiabilidade na entrega dos pacotes,
+    mas é possível enviar grandes aqruivos pela intervet. Neste caso, o aqruivos
+    deve ser dividido entre vparios pacotes menores. 
+
+    No protocol TCP, há uma conexão estabelecida, para que um pacote maior possa
+    ser enviado de maneira segura.
+
+3 - Devida a sua confiabilidade e ordenação na entrega de pacotes, TCP é ideal para
+    serviçõs que requerem conexão e integridade de dados, como é é comumente necessário
+    em downloads. UDP é recomendado para comunicação de dados que não necessitam de 
+    integridade acima de velocidade, como ocorre em aplicações de comunicação por vídeo
+    e áudio.
