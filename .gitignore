@@ -6,3 +6,5 @@ osdirs
 *.jpeg
 *.jpg
 *.png
+*.venv/*
+Semana07/problema03/.venv/*
