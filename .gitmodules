@@ -1,0 +1,3 @@
+[submodule "Trabalho1/OpenGL_Drone_Navigation"]
+	path = Trabalho1/OpenGL_Drone_Navigation
+	url = git@github.com:MiguelRavagnani/OpenGL_Drone_Navigation.git
