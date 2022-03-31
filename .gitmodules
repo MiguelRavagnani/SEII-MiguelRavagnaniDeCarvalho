@@ -1,3 +1,9 @@
 [submodule "Trabalho1/OpenGL_Drone_Navigation"]
 	path = Trabalho1/OpenGL_Drone_Navigation
 	url = git@github.com:MiguelRavagnani/OpenGL_Drone_Navigation.git
+[submodule "Trabalho2/IoT-SEII-API"]
+	path = Trabalho2/IoT-SEII-API
+	url = git@github.com:MiguelRavagnani/IoT-SEII-API.git
+[submodule "Trabalho2/IoT-SEII-APP"]
+	path = Trabalho2/IoT-SEII-APP
+	url = git@github.com:MiguelRavagnani/IoT-SEII-APP.git
